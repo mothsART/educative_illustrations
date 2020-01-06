@@ -1,0 +1,666 @@
+desc: (none)
+cmd: svgcleaner organes.svg organes.svgcleaner.svg
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=7271468
+mem_heap_B=1405698
+mem_heap_extra_B=4726
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=12197976
+mem_heap_B=1702052
+mem_heap_extra_B=9644
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=20301850
+mem_heap_B=2224023
+mem_heap_extra_B=19705
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=24048209
+mem_heap_B=2472551
+mem_heap_extra_B=25193
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=32109217
+mem_heap_B=3029854
+mem_heap_extra_B=36554
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=38276036
+mem_heap_B=3307608
+mem_heap_extra_B=41008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=42002560
+mem_heap_B=3480432
+mem_heap_extra_B=43792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=50238545
+mem_heap_B=3935007
+mem_heap_extra_B=51337
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=56364503
+mem_heap_B=4418030
+mem_heap_extra_B=58890
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=63843078
+mem_heap_B=4977669
+mem_heap_extra_B=67035
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=67982123
+mem_heap_B=5226032
+mem_heap_extra_B=70192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=73407343
+mem_heap_B=5555009
+mem_heap_extra_B=74527
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=81679197
+mem_heap_B=5693066
+mem_heap_extra_B=77446
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=90157159
+mem_heap_B=5704010
+mem_heap_extra_B=79270
+mem_stacks_B=0
+heap_tree=detailed
+n7: 5704010 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2777472 0x1E3071: ??? (in /usr/bin/svgcleaner)
+  n3: 2777472 0x1E1BA6: ??? (in /usr/bin/svgcleaner)
+   n2: 1586304 0x1DAB85: ??? (in /usr/bin/svgcleaner)
+    n1: 1579392 0x1D1726: ??? (in /usr/bin/svgcleaner)
+     n1: 1579392 0x113B95: ??? (in /usr/bin/svgcleaner)
+      n1: 1579392 0x2379C4: ??? (in /usr/bin/svgcleaner)
+       n1: 1579392 0x222D84: ??? (in /usr/bin/svgcleaner)
+        n0: 1579392 0x11750D: main (in /usr/bin/svgcleaner)
+    n0: 6912 in 1 place, below massif's threshold (1.00%)
+   n1: 1186560 0x1D20AB: ??? (in /usr/bin/svgcleaner)
+    n1: 1186560 0x113B95: ??? (in /usr/bin/svgcleaner)
+     n1: 1186560 0x2379C4: ??? (in /usr/bin/svgcleaner)
+      n1: 1186560 0x222D84: ??? (in /usr/bin/svgcleaner)
+       n0: 1186560 0x11750D: main (in /usr/bin/svgcleaner)
+   n0: 4608 in 1 place, below massif's threshold (1.00%)
+ n1: 1283520 0x1CF080: ??? (in /usr/bin/svgcleaner)
+  n1: 1283520 0x1D1FAA: ??? (in /usr/bin/svgcleaner)
+   n1: 1283520 0x113B95: ??? (in /usr/bin/svgcleaner)
+    n1: 1283520 0x2379C4: ??? (in /usr/bin/svgcleaner)
+     n1: 1283520 0x222D84: ??? (in /usr/bin/svgcleaner)
+      n0: 1283520 0x11750D: main (in /usr/bin/svgcleaner)
+ n1: 1172987 0x1136BB: ??? (in /usr/bin/svgcleaner)
+  n1: 1172987 0x2379C4: ??? (in /usr/bin/svgcleaner)
+   n1: 1172987 0x222D84: ??? (in /usr/bin/svgcleaner)
+    n0: 1172987 0x11750D: main (in /usr/bin/svgcleaner)
+ n2: 253240 0x1DE687: ??? (in /usr/bin/svgcleaner)
+  n1: 253136 0x1D2D1E: ??? (in /usr/bin/svgcleaner)
+   n1: 253136 0x113B95: ??? (in /usr/bin/svgcleaner)
+    n1: 253136 0x2379C4: ??? (in /usr/bin/svgcleaner)
+     n1: 253136 0x222D84: ??? (in /usr/bin/svgcleaner)
+      n0: 253136 0x11750D: main (in /usr/bin/svgcleaner)
+  n0: 104 in 3 places, all below massif's threshold (1.00%)
+ n1: 81920 0x1CF627: ??? (in /usr/bin/svgcleaner)
+  n1: 81920 0x1D1DD4: ??? (in /usr/bin/svgcleaner)
+   n1: 81920 0x113B95: ??? (in /usr/bin/svgcleaner)
+    n1: 81920 0x2379C4: ??? (in /usr/bin/svgcleaner)
+     n1: 81920 0x222D84: ??? (in /usr/bin/svgcleaner)
+      n0: 81920 0x11750D: main (in /usr/bin/svgcleaner)
+ n0: 69335 in 69 places, all below massif's threshold (1.00%)
+ n1: 65536 0x1DF3EE: ??? (in /usr/bin/svgcleaner)
+  n1: 65536 0x1ED107: ??? (in /usr/bin/svgcleaner)
+   n1: 65536 0x1D1A64: ??? (in /usr/bin/svgcleaner)
+    n1: 65536 0x113B95: ??? (in /usr/bin/svgcleaner)
+     n1: 65536 0x2379C4: ??? (in /usr/bin/svgcleaner)
+      n1: 65536 0x222D84: ??? (in /usr/bin/svgcleaner)
+       n0: 65536 0x11750D: main (in /usr/bin/svgcleaner)
+#-----------
+snapshot=15
+#-----------
+time=94023838
+mem_heap_B=5709002
+mem_heap_extra_B=80102
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=100790639
+mem_heap_B=5717738
+mem_heap_extra_B=81558
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=108527270
+mem_heap_B=5727722
+mem_heap_extra_B=83222
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=112397403
+mem_heap_B=5732714
+mem_heap_extra_B=84054
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=125065229
+mem_heap_B=5733914
+mem_heap_extra_B=84070
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=129714692
+mem_heap_B=5735258
+mem_heap_extra_B=84294
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=138870157
+mem_heap_B=5736698
+mem_heap_extra_B=84350
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=145306780
+mem_heap_B=5750298
+mem_heap_extra_B=85510
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=153006470
+mem_heap_B=6653288
+mem_heap_extra_B=108008
+mem_stacks_B=0
+heap_tree=peak
+n7: 6653288 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1941120 0x1E3071: ??? (in /usr/bin/svgcleaner)
+  n3: 1941120 0x1E1BA6: ??? (in /usr/bin/svgcleaner)
+   n1: 1185408 0x1D20AB: ??? (in /usr/bin/svgcleaner)
+    n1: 1185408 0x113B95: ??? (in /usr/bin/svgcleaner)
+     n1: 1185408 0x2379C4: ??? (in /usr/bin/svgcleaner)
+      n1: 1185408 0x222D84: ??? (in /usr/bin/svgcleaner)
+       n0: 1185408 0x11750D: main (in /usr/bin/svgcleaner)
+   n2: 731520 0x1DAB85: ??? (in /usr/bin/svgcleaner)
+    n1: 717696 0x1D1726: ??? (in /usr/bin/svgcleaner)
+     n1: 717696 0x113B95: ??? (in /usr/bin/svgcleaner)
+      n1: 717696 0x2379C4: ??? (in /usr/bin/svgcleaner)
+       n1: 717696 0x222D84: ??? (in /usr/bin/svgcleaner)
+        n0: 717696 0x11750D: main (in /usr/bin/svgcleaner)
+    n0: 13824 in 1 place, below massif's threshold (1.00%)
+   n0: 24192 in 2 places, all below massif's threshold (1.00%)
+ n1: 1728000 0x1CF758: ??? (in /usr/bin/svgcleaner)
+  n1: 1728000 0x1E34C2: ??? (in /usr/bin/svgcleaner)
+   n2: 1728000 0x1E1BA6: ??? (in /usr/bin/svgcleaner)
+    n1: 1723392 0x1E6DA3: ??? (in /usr/bin/svgcleaner)
+     n1: 1723392 0x1E5520: ??? (in /usr/bin/svgcleaner)
+      n1: 1723392 0x1E584E: ??? (in /usr/bin/svgcleaner)
+       n1: 1723392 0x1E584E: ??? (in /usr/bin/svgcleaner)
+        n1: 1723392 0x1E584E: ??? (in /usr/bin/svgcleaner)
+         n1: 1723392 0x1D78C2: ??? (in /usr/bin/svgcleaner)
+          n1: 1723392 0x113B95: ??? (in /usr/bin/svgcleaner)
+           n1: 1723392 0x2379C4: ??? (in /usr/bin/svgcleaner)
+            n1: 1723392 0x222D84: ??? (in /usr/bin/svgcleaner)
+             n0: 1723392 0x11750D: main (in /usr/bin/svgcleaner)
+    n0: 4608 in 1 place, below massif's threshold (1.00%)
+ n1: 1283520 0x1CF080: ??? (in /usr/bin/svgcleaner)
+  n1: 1283520 0x1D1FAA: ??? (in /usr/bin/svgcleaner)
+   n1: 1283520 0x113B95: ??? (in /usr/bin/svgcleaner)
+    n1: 1283520 0x2379C4: ??? (in /usr/bin/svgcleaner)
+     n1: 1283520 0x222D84: ??? (in /usr/bin/svgcleaner)
+      n0: 1283520 0x11750D: main (in /usr/bin/svgcleaner)
+ n1: 1172987 0x1136BB: ??? (in /usr/bin/svgcleaner)
+  n1: 1172987 0x2379C4: ??? (in /usr/bin/svgcleaner)
+   n1: 1172987 0x222D84: ??? (in /usr/bin/svgcleaner)
+    n0: 1172987 0x11750D: main (in /usr/bin/svgcleaner)
+ n2: 253240 0x1DE687: ??? (in /usr/bin/svgcleaner)
+  n1: 253136 0x1D2D1E: ??? (in /usr/bin/svgcleaner)
+   n1: 253136 0x113B95: ??? (in /usr/bin/svgcleaner)
+    n1: 253136 0x2379C4: ??? (in /usr/bin/svgcleaner)
+     n1: 253136 0x222D84: ??? (in /usr/bin/svgcleaner)
+      n0: 253136 0x11750D: main (in /usr/bin/svgcleaner)
+  n0: 104 in 3 places, all below massif's threshold (1.00%)
+ n0: 192501 in 72 places, all below massif's threshold (1.00%)
+ n1: 81920 0x1CF627: ??? (in /usr/bin/svgcleaner)
+  n1: 81920 0x1D1DD4: ??? (in /usr/bin/svgcleaner)
+   n1: 81920 0x113B95: ??? (in /usr/bin/svgcleaner)
+    n1: 81920 0x2379C4: ??? (in /usr/bin/svgcleaner)
+     n1: 81920 0x222D84: ??? (in /usr/bin/svgcleaner)
+      n0: 81920 0x11750D: main (in /usr/bin/svgcleaner)
+#-----------
+snapshot=24
+#-----------
+time=153970611
+mem_heap_B=6639183
+mem_heap_extra_B=89865
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=168531711
+mem_heap_B=6483706
+mem_heap_extra_B=86078
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=173842100
+mem_heap_B=6452909
+mem_heap_extra_B=85659
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=178469004
+mem_heap_B=6443000
+mem_heap_extra_B=85456
+mem_stacks_B=0
+heap_tree=detailed
+n6: 6443000 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1916928 0x1E3071: ??? (in /usr/bin/svgcleaner)
+  n3: 1916928 0x1E1BA6: ??? (in /usr/bin/svgcleaner)
+   n1: 1184256 0x1D20AB: ??? (in /usr/bin/svgcleaner)
+    n1: 1184256 0x113B95: ??? (in /usr/bin/svgcleaner)
+     n1: 1184256 0x2379C4: ??? (in /usr/bin/svgcleaner)
+      n1: 1184256 0x222D84: ??? (in /usr/bin/svgcleaner)
+       n0: 1184256 0x11750D: main (in /usr/bin/svgcleaner)
+   n2: 726912 0x1DAB85: ??? (in /usr/bin/svgcleaner)
+    n1: 716544 0x1D1726: ??? (in /usr/bin/svgcleaner)
+     n1: 716544 0x113B95: ??? (in /usr/bin/svgcleaner)
+      n1: 716544 0x2379C4: ??? (in /usr/bin/svgcleaner)
+       n1: 716544 0x222D84: ??? (in /usr/bin/svgcleaner)
+        n0: 716544 0x11750D: main (in /usr/bin/svgcleaner)
+    n0: 10368 in 1 place, below massif's threshold (1.00%)
+   n0: 5760 in 2 places, all below massif's threshold (1.00%)
+ n1: 1728000 0x1CF758: ??? (in /usr/bin/svgcleaner)
+  n1: 1728000 0x1E34C2: ??? (in /usr/bin/svgcleaner)
+   n2: 1728000 0x1E1BA6: ??? (in /usr/bin/svgcleaner)
+    n1: 1723392 0x1E6DA3: ??? (in /usr/bin/svgcleaner)
+     n1: 1723392 0x1E5520: ??? (in /usr/bin/svgcleaner)
+      n1: 1723392 0x1E584E: ??? (in /usr/bin/svgcleaner)
+       n1: 1723392 0x1E584E: ??? (in /usr/bin/svgcleaner)
+        n1: 1723392 0x1E584E: ??? (in /usr/bin/svgcleaner)
+         n1: 1723392 0x1D78C2: ??? (in /usr/bin/svgcleaner)
+          n1: 1723392 0x113B95: ??? (in /usr/bin/svgcleaner)
+           n1: 1723392 0x2379C4: ??? (in /usr/bin/svgcleaner)
+            n1: 1723392 0x222D84: ??? (in /usr/bin/svgcleaner)
+             n0: 1723392 0x11750D: main (in /usr/bin/svgcleaner)
+    n0: 4608 in 1 place, below massif's threshold (1.00%)
+ n1: 1269184 0x1CF080: ??? (in /usr/bin/svgcleaner)
+  n1: 1269184 0x1D1FAA: ??? (in /usr/bin/svgcleaner)
+   n1: 1269184 0x113B95: ??? (in /usr/bin/svgcleaner)
+    n1: 1269184 0x2379C4: ??? (in /usr/bin/svgcleaner)
+     n1: 1269184 0x222D84: ??? (in /usr/bin/svgcleaner)
+      n0: 1269184 0x11750D: main (in /usr/bin/svgcleaner)
+ n1: 1172987 0x1136BB: ??? (in /usr/bin/svgcleaner)
+  n1: 1172987 0x2379C4: ??? (in /usr/bin/svgcleaner)
+   n1: 1172987 0x222D84: ??? (in /usr/bin/svgcleaner)
+    n0: 1172987 0x11750D: main (in /usr/bin/svgcleaner)
+ n2: 251056 0x1DE687: ??? (in /usr/bin/svgcleaner)
+  n1: 250952 0x1D2D1E: ??? (in /usr/bin/svgcleaner)
+   n1: 250952 0x113B95: ??? (in /usr/bin/svgcleaner)
+    n1: 250952 0x2379C4: ??? (in /usr/bin/svgcleaner)
+     n1: 250952 0x222D84: ??? (in /usr/bin/svgcleaner)
+      n0: 250952 0x11750D: main (in /usr/bin/svgcleaner)
+  n0: 104 in 3 places, all below massif's threshold (1.00%)
+ n0: 104845 in 79 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=188675983
+mem_heap_B=6443288
+mem_heap_extra_B=85464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=192956854
+mem_heap_B=6443256
+mem_heap_extra_B=85464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=203824942
+mem_heap_B=6443288
+mem_heap_extra_B=85464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=214039182
+mem_heap_B=6443218
+mem_heap_extra_B=85446
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=219294185
+mem_heap_B=6427608
+mem_heap_extra_B=82832
+mem_stacks_B=0
+heap_tree=detailed
+n6: 6427608 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1916928 0x1E3071: ??? (in /usr/bin/svgcleaner)
+  n3: 1916928 0x1E1BA6: ??? (in /usr/bin/svgcleaner)
+   n1: 1184256 0x1D20AB: ??? (in /usr/bin/svgcleaner)
+    n1: 1184256 0x113B95: ??? (in /usr/bin/svgcleaner)
+     n1: 1184256 0x2379C4: ??? (in /usr/bin/svgcleaner)
+      n1: 1184256 0x222D84: ??? (in /usr/bin/svgcleaner)
+       n0: 1184256 0x11750D: main (in /usr/bin/svgcleaner)
+   n2: 726912 0x1DAB85: ??? (in /usr/bin/svgcleaner)
+    n1: 716544 0x1D1726: ??? (in /usr/bin/svgcleaner)
+     n1: 716544 0x113B95: ??? (in /usr/bin/svgcleaner)
+      n1: 716544 0x2379C4: ??? (in /usr/bin/svgcleaner)
+       n1: 716544 0x222D84: ??? (in /usr/bin/svgcleaner)
+        n0: 716544 0x11750D: main (in /usr/bin/svgcleaner)
+    n0: 10368 in 1 place, below massif's threshold (1.00%)
+   n0: 5760 in 2 places, all below massif's threshold (1.00%)
+ n1: 1728000 0x1CF758: ??? (in /usr/bin/svgcleaner)
+  n1: 1728000 0x1E34C2: ??? (in /usr/bin/svgcleaner)
+   n2: 1728000 0x1E1BA6: ??? (in /usr/bin/svgcleaner)
+    n1: 1723392 0x1E6DA3: ??? (in /usr/bin/svgcleaner)
+     n1: 1723392 0x1E5520: ??? (in /usr/bin/svgcleaner)
+      n1: 1723392 0x1E584E: ??? (in /usr/bin/svgcleaner)
+       n1: 1723392 0x1E584E: ??? (in /usr/bin/svgcleaner)
+        n1: 1723392 0x1E584E: ??? (in /usr/bin/svgcleaner)
+         n1: 1723392 0x1D78C2: ??? (in /usr/bin/svgcleaner)
+          n1: 1723392 0x113B95: ??? (in /usr/bin/svgcleaner)
+           n1: 1723392 0x2379C4: ??? (in /usr/bin/svgcleaner)
+            n1: 1723392 0x222D84: ??? (in /usr/bin/svgcleaner)
+             n0: 1723392 0x11750D: main (in /usr/bin/svgcleaner)
+    n0: 4608 in 1 place, below massif's threshold (1.00%)
+ n2: 1269632 0x1CF080: ??? (in /usr/bin/svgcleaner)
+  n1: 1269184 0x1D1FAA: ??? (in /usr/bin/svgcleaner)
+   n1: 1269184 0x113B95: ??? (in /usr/bin/svgcleaner)
+    n1: 1269184 0x2379C4: ??? (in /usr/bin/svgcleaner)
+     n1: 1269184 0x222D84: ??? (in /usr/bin/svgcleaner)
+      n0: 1269184 0x11750D: main (in /usr/bin/svgcleaner)
+  n0: 448 in 1 place, below massif's threshold (1.00%)
+ n1: 1172987 0x1136BB: ??? (in /usr/bin/svgcleaner)
+  n1: 1172987 0x2379C4: ??? (in /usr/bin/svgcleaner)
+   n1: 1172987 0x222D84: ??? (in /usr/bin/svgcleaner)
+    n0: 1172987 0x11750D: main (in /usr/bin/svgcleaner)
+ n2: 251056 0x1DE687: ??? (in /usr/bin/svgcleaner)
+  n1: 250952 0x1D2D1E: ??? (in /usr/bin/svgcleaner)
+   n1: 250952 0x113B95: ??? (in /usr/bin/svgcleaner)
+    n1: 250952 0x2379C4: ??? (in /usr/bin/svgcleaner)
+     n1: 250952 0x222D84: ??? (in /usr/bin/svgcleaner)
+      n0: 250952 0x11750D: main (in /usr/bin/svgcleaner)
+  n0: 104 in 3 places, all below massif's threshold (1.00%)
+ n0: 89005 in 85 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=224141220
+mem_heap_B=6399288
+mem_heap_extra_B=78112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=229658996
+mem_heap_B=6396648
+mem_heap_extra_B=77672
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=236502728
+mem_heap_B=6404198
+mem_heap_extra_B=76530
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=244562863
+mem_heap_B=6496336
+mem_heap_extra_B=81728
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=264593550
+mem_heap_B=6497500
+mem_heap_extra_B=81804
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=272513151
+mem_heap_B=6359486
+mem_heap_extra_B=49426
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=278432834
+mem_heap_B=6359486
+mem_heap_extra_B=49426
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=283299341
+mem_heap_B=6359486
+mem_heap_extra_B=49426
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=292200105
+mem_heap_B=6359486
+mem_heap_extra_B=49426
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=299390594
+mem_heap_B=6359486
+mem_heap_extra_B=49426
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=304556205
+mem_heap_B=6359486
+mem_heap_extra_B=49426
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=310610558
+mem_heap_B=6359486
+mem_heap_extra_B=49426
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=317416460
+mem_heap_B=6359486
+mem_heap_extra_B=49426
+mem_stacks_B=0
+heap_tree=detailed
+n6: 6359486 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1926144 0x1E3071: ??? (in /usr/bin/svgcleaner)
+  n3: 1926144 0x1E1BA6: ??? (in /usr/bin/svgcleaner)
+   n1: 1184256 0x1D20AB: ??? (in /usr/bin/svgcleaner)
+    n1: 1184256 0x113B95: ??? (in /usr/bin/svgcleaner)
+     n1: 1184256 0x2379C4: ??? (in /usr/bin/svgcleaner)
+      n1: 1184256 0x222D84: ??? (in /usr/bin/svgcleaner)
+       n0: 1184256 0x11750D: main (in /usr/bin/svgcleaner)
+   n2: 726912 0x1DAB85: ??? (in /usr/bin/svgcleaner)
+    n1: 716544 0x1D1726: ??? (in /usr/bin/svgcleaner)
+     n1: 716544 0x113B95: ??? (in /usr/bin/svgcleaner)
+      n1: 716544 0x2379C4: ??? (in /usr/bin/svgcleaner)
+       n1: 716544 0x222D84: ??? (in /usr/bin/svgcleaner)
+        n0: 716544 0x11750D: main (in /usr/bin/svgcleaner)
+    n0: 10368 in 1 place, below massif's threshold (1.00%)
+   n0: 14976 in 3 places, all below massif's threshold (1.00%)
+ n1: 1728000 0x1CF758: ??? (in /usr/bin/svgcleaner)
+  n1: 1728000 0x1E34C2: ??? (in /usr/bin/svgcleaner)
+   n2: 1728000 0x1E1BA6: ??? (in /usr/bin/svgcleaner)
+    n1: 1723392 0x1E6DA3: ??? (in /usr/bin/svgcleaner)
+     n1: 1723392 0x1E5520: ??? (in /usr/bin/svgcleaner)
+      n1: 1723392 0x1E584E: ??? (in /usr/bin/svgcleaner)
+       n1: 1723392 0x1E584E: ??? (in /usr/bin/svgcleaner)
+        n1: 1723392 0x1E584E: ??? (in /usr/bin/svgcleaner)
+         n1: 1723392 0x1D78C2: ??? (in /usr/bin/svgcleaner)
+          n1: 1723392 0x113B95: ??? (in /usr/bin/svgcleaner)
+           n1: 1723392 0x2379C4: ??? (in /usr/bin/svgcleaner)
+            n1: 1723392 0x222D84: ??? (in /usr/bin/svgcleaner)
+             n0: 1723392 0x11750D: main (in /usr/bin/svgcleaner)
+    n0: 4608 in 1 place, below massif's threshold (1.00%)
+ n2: 1269632 0x1CF080: ??? (in /usr/bin/svgcleaner)
+  n1: 1269184 0x1D1FAA: ??? (in /usr/bin/svgcleaner)
+   n1: 1269184 0x113B95: ??? (in /usr/bin/svgcleaner)
+    n1: 1269184 0x2379C4: ??? (in /usr/bin/svgcleaner)
+     n1: 1269184 0x222D84: ??? (in /usr/bin/svgcleaner)
+      n0: 1269184 0x11750D: main (in /usr/bin/svgcleaner)
+  n0: 448 in 1 place, below massif's threshold (1.00%)
+ n1: 1172987 0x1136BB: ??? (in /usr/bin/svgcleaner)
+  n1: 1172987 0x2379C4: ??? (in /usr/bin/svgcleaner)
+   n1: 1172987 0x222D84: ??? (in /usr/bin/svgcleaner)
+    n0: 1172987 0x11750D: main (in /usr/bin/svgcleaner)
+ n2: 251888 0x1DE687: ??? (in /usr/bin/svgcleaner)
+  n1: 250848 0x1D2D1E: ??? (in /usr/bin/svgcleaner)
+   n1: 250848 0x113B95: ??? (in /usr/bin/svgcleaner)
+    n1: 250848 0x2379C4: ??? (in /usr/bin/svgcleaner)
+     n1: 250848 0x222D84: ??? (in /usr/bin/svgcleaner)
+      n0: 250848 0x11750D: main (in /usr/bin/svgcleaner)
+  n0: 1040 in 4 places, all below massif's threshold (1.00%)
+ n0: 10835 in 109 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=322340582
+mem_heap_B=6359486
+mem_heap_extra_B=49426
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=328691057
+mem_heap_B=6359486
+mem_heap_extra_B=49426
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=332722439
+mem_heap_B=6359486
+mem_heap_extra_B=49426
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=338644975
+mem_heap_B=6359486
+mem_heap_extra_B=49426
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=339713972
+mem_heap_B=6017606
+mem_heap_extra_B=46474
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=340678127
+mem_heap_B=3520197
+mem_heap_extra_B=26443
+mem_stacks_B=0
+heap_tree=empty
